@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  height: 96px;
+  align-items: center;
+  &_list {
+    margin-left: 58px;
+    width: 249px;
+    display: flex;
+    justify-content: space-between;
+    &__item {
+      font-family: "Space mono 700";
+      &-link {
+        color: #939caa;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        font-family: "Space mono 700";
+      }
+    }
+  }
+  &_btn {
+    width: 180px;
+    height: 53px;
+    flex-shrink: 0;
+    background: #fcb72b;
+    color: #fff;
+    text-align: center;
+    font-family: "Space mono 700";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 521px;
+    border: none;
+  }
+}
