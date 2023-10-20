@@ -1,0 +1,61 @@
+.section2 {
+  max-width: 1110px;
+  height: 445px;
+  margin: 0 auto;
+
+  .wrapper {
+    display: flex;
+    height: 445px;
+    align-items: center;
+    position: absolute;
+  }
+  &_left {
+    width: 445px;
+    height: 313px;
+
+    &_title {
+      @include space700;
+      color: #495567;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2.143px;
+    }
+
+    &_info {
+      width: 445px;
+      color: #939caa;
+      @include lexend;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      padding-top: 24px;
+    }
+
+    &_button {
+      @include button;
+    }
+  }
+  &_right {
+    margin-left: 183px;
+  }
+  .s2-image {
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -210px;
+  }
+  .strelka {
+    position: absolute;
+    left: 500px;
+    margin-top: 50px;
+  }
+  .half {
+    position: absolute;
+    margin-top: -230px;
+    right: -612px;
+    z-index: -2;
+  }
+}

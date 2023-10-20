@@ -1,0 +1,26 @@
+@mixin space700 {
+  font-family: "Space mono 700";
+}
+
+@mixin space400 {
+  font-family: "Space mono 400";
+}
+
+@mixin lexend {
+  font-family: "Lexend deca 400";
+}
+
+@mixin button {
+  width: 180px;
+  height: 53px;
+  flex-shrink: 0;
+  background: #fcb72b;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  margin-top: 40px;
+}
