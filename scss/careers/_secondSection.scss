@@ -1,0 +1,46 @@
+.secondSection {
+  margin-top: 115px;
+  height: 445px;
+  &_left {
+    max-width: 445px;
+    padding-top: 130px;
+    &_title {
+      color: #495567;
+      @include space700;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2.143px;
+      padding-bottom: 24px;
+    }
+
+    &_info {
+      color: #939caa;
+      @include lexend;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+    }
+    &_button {
+      @include button;
+    }
+  }
+  &_right {
+    position: relative;
+    &_img {
+      border-radius: 50%;
+    }
+    &_strelka {
+      position: absolute;
+      right: -200px;
+      z-index: 1;
+      bottom: 40px;
+    }
+    &_half {
+      position: absolute;
+      right: -200px;
+    }
+  }
+}
