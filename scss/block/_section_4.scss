@@ -1,0 +1,48 @@
+.section-4 {
+  position: relative;
+  padding-bottom: 178px;
+  .s4-half {
+    position: absolute;
+    left: 1400px;
+  }
+  .s4-strelka {
+    position: absolute;
+    right: 14px;
+    margin-top: 80px;
+  }
+  padding-top: 350px;
+  .wrapper-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    .s4-left {
+      max-width: 445px;
+      .s4-title {
+        color: #495567;
+        @include space700;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+      }
+      .s4-info {
+        color: #939caa;
+        @include lexend;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 24px;
+        margin-bottom: 40px;
+      }
+      .s4-button {
+        @include button;
+      }
+    }
+    .s4-right {
+      border-radius: 50%;
+    }
+  }
+}

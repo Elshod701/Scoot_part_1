@@ -1,0 +1,19 @@
+.firstSection {
+  background-image: url(/assets/images/about.png);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  .firstSectionTitle {
+    color: #fff;
+    @include space700;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    padding-top: 62px;
+  }
+}

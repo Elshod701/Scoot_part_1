@@ -1,0 +1,53 @@
+.fourthSection {
+  margin-top: 80px;
+  &_title {
+    text-align: center;
+    color: #495567;
+    @include space700;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  .fourthSection_cards {
+    &_first {
+      width: 350px;
+      height: 512px;
+      padding-top: 60px;
+      position: relative;
+
+      &_main {
+        border-radius: 50%;
+        margin-left: 55px;
+      }
+      &_rating {
+        position: absolute;
+        z-index: 1;
+        top: 260px;
+        left: 130px;
+      }
+      &_title {
+        color: #495567;
+        text-align: center;
+        @include space700;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -1.071px;
+        margin-top: 80px;
+      }
+      &_info {
+        color: #939caa;
+        text-align: center;
+        @include lexend;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

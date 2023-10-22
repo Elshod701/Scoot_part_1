@@ -1,0 +1,94 @@
+.footer {
+  background-image: url(/assets/images/Mask.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  height: 300px;
+  padding-top: 102px;
+  .container {
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+  }
+
+  &_title {
+    @include space700;
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    max-width: 415px;
+  }
+  &_socials {
+    width: 378px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .apple {
+      width: 159px;
+      height: 56px;
+      background: #ffffff;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      .apple_mark {
+        height: 39px;
+        &_title {
+          @include space700;
+          color: #495567;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.446px;
+        }
+        &_info {
+          color: #495567;
+          @include space700;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: -0.893px;
+        }
+      }
+    }
+    .google {
+      width: 159px;
+      height: 56px;
+      background: #ffffff;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      .google_mark {
+        height: 39px;
+        &_title {
+          @include space700;
+          color: #495567;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.446px;
+        }
+        &_info {
+          color: #495567;
+          @include space700;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: -0.893px;
+        }
+      }
+    }
+  }
+}
